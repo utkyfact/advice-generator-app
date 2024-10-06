@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    color: white;
+    font-family: "Manrope", sans-serif;
+}
+
+.generator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.generator-card {
+    width: 320px;
+    position: relative;
+    background-color: hsl(217, 19%, 24%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.advice-title {
+    text-align: center;
+    color: hsl(150, 100%, 66%);
+    font-size: 7px;
+    letter-spacing: 3px;
+    margin: 12px;
+    text-transform: uppercase;
+}
+
+.advice-description {
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+    font-weight: 800;
+    margin: 12px;
+    line-height: 1.4;
+}
+
+.pattern {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 14px;
+}
+
+.pattern  img{
+    width: 100%;
+}
+
+.dice {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    background-color: hsl(150, 100%, 66%);
+    position: absolute;
+    padding: 12px;
+    border-radius: 50px;
+    bottom: -18px;
+    left: 142px;
+}
+
+.icon-dice {
+    width: 100%;
+}
+
+.dice:hover {
+    box-shadow: 0px 0px 16px hsl(150, 100%, 66%);
+    cursor: pointer;
+}
