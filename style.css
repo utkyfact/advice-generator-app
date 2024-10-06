@@ -75,7 +75,7 @@ body {
     cursor: pointer;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1500px) {
     .generator-card {
         width: 400px;
     }
