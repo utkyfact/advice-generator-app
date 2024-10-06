@@ -74,3 +74,13 @@ body {
     box-shadow: 0px 0px 16px hsl(150, 100%, 66%);
     cursor: pointer;
 }
+
+@media (min-width: 1440px) {
+    .generator-card {
+        width: 400px;
+    }
+
+    .advice-title {
+        font-size: 12px;
+    }
+}
