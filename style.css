@@ -48,7 +48,7 @@ body {
     margin-bottom: 14px;
 }
 
-.pattern  img{
+.pattern img {
     width: 100%;
 }
 
@@ -60,12 +60,14 @@ body {
     position: absolute;
     padding: 12px;
     border-radius: 50px;
-    bottom: -18px;
-    left: 142px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .icon-dice {
     width: 100%;
+    margin: auto;
 }
 
 .dice:hover {
